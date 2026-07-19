@@ -8,29 +8,30 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hola a todos, Soy <span className="purple">Eliezer Ponce </span>
-            de <span className="purple"> Estelí, Nicaragüa.</span>
+            Hola, soy <span className="purple">Eliezer Ponce </span>
+            de <span className="purple">Estelí, Nicaragua.</span>
             <br />
-            Actualmente trabajo como Helpdesk Support en Joya de Nicaragüa.
+            Actualmente trabajo como Helpdesk Support en Joya de Nicaragua.
             <br />
-            Tengo el Grado academico de Ingeniero en ciencias de la computacion
-            y Actualmente estudio una maestria en ingenieria de software.
+            Soy Ingeniero en Ciencias de la Computación y estudio una maestría
+            en Ingeniería de Software.
             <br />
             <br />
-            Además de codificar, ¡hay otras actividades que me encanta hacer!
+            Me interesa crear software que combine buena interfaz, lógica
+            sólida, datos confiables y una entrega práctica para usuarios reales.
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Jugar VideoJuegos
+              <ImPointRight /> Construir aplicaciones web y móviles
             </li>
             <li className="about-activity">
-              <ImPointRight /> Ver Anime
+              <ImPointRight /> Diseñar módulos administrativos y flujos de negocio
             </li>
             <li className="about-activity">
-              <ImPointRight /> Ir al cine
+              <ImPointRight /> Trabajar con bases de datos y respaldos
             </li>
             <li className="about-activity">
-              <ImPointRight /> Salir en moto
+              <ImPointRight /> Usar IA como apoyo para analizar y mejorar código
             </li>
           </ul>
 

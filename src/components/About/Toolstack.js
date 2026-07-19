@@ -1,12 +1,9 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
+import { FaWindows } from "react-icons/fa";
+import { VscVscode } from "react-icons/vsc";
 import {
-  SiVisualstudiocode,
   SiPostman,
-  SiSlack,
-  SiVercel,
-  SiMacos,
-  SiWindows11,
   SiDiscord,
   SiNpm,
 } from "react-icons/si";
@@ -15,10 +12,10 @@ function Toolstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <SiWindows11 />
+        <FaWindows />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiVisualstudiocode />
+        <VscVscode />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiPostman />

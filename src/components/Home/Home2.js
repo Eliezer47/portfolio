@@ -16,39 +16,38 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              <span className="purple"> PERMITEME </span> PRESENTARME
+              <span className="purple"> PERMÍTEME </span> PRESENTARME
             </h1>
             <p className="home-about-body">
-              Explorador del mundo digital en busca de la armonía entre la
-              innovación tecnológica y la elevación de la experiencia humana.
+              Soy desarrollador de Nicaragua enfocado en aplicaciones web,
+              móviles y sistemas de gestión que simplifican procesos reales.
               <br />
               <br />
-              Me gusta el desarrollo Móvil con
+              Trabajo con
               <i>
                 <b className="purple">
                   {" "}
-                  React Native, Javascript o TypeScript{" "}
+                  React, React Native, JavaScript y TypeScript{" "}
                 </b>
               </i>
+              para construir interfaces claras, mantenibles y orientadas al
+              usuario.
               <br />
               <br />
-              Mi campo de interés es la construcción de nuevas &nbsp;
+              También he desarrollado soluciones con &nbsp;
               <i>
-                <b className="purple">Tecnologias y productos moviles </b> y
-                productos web con{" "}
-                <b className="purple"> Wordpress u otras tecnologias</b>
+                <b className="purple">C#/.NET, APIs REST y SQL Server</b>
               </i>
+              , incluyendo módulos administrativos, autenticación, respaldos,
+              restauración e instaladores.
               <br />
               <br />
-              Siempre que sea posible, trato de aprender nuevas tecnologias y
-              habilidades como <b className="purple">Node.js</b> y
+              En proyectos como{" "}
               <i>
-                <b className="purple">TypeScript</b>
+                <b className="purple">Sistema Ink Multiservicios</b>
               </i>
-              &nbsp; y nuevos frameworks como
-              <i>
-                <b className="purple"> Flutter</b>
-              </i>
+              {" "}me gusta unir análisis, interfaz, lógica de negocio, datos y
+              entrega para que el software sea útil desde el primer uso.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -61,8 +60,8 @@ function Home2() {
           <Col md={12} className="home-about-social">
             <h1>ENCUENTRAME</h1>
             <p>
-              Sientete libre de <span className="purple">contactar </span>con
-              migo
+              Siéntete libre de <span className="purple">contactar </span>
+              conmigo
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">
@@ -87,7 +86,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="www.linkedin.com/in/eliezer47"
+                  href="https://www.linkedin.com/in/eliezer47/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"

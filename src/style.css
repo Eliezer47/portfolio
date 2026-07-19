@@ -511,6 +511,30 @@ button:focus {
   border-radius: 10px !important;
 }
 
+.project-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+  margin: 18px 0 20px;
+}
+
+.project-tag {
+  border: 1px solid rgba(0, 161, 197, 0.5);
+  border-radius: 999px;
+  color: #cceff7;
+  font-size: 0.82rem;
+  line-height: 1.1;
+  padding: 6px 10px;
+}
+
+.project-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
 .blog-img {
   padding: 0px !important;
   opacity: 0.8 !important;

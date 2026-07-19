@@ -1,0 +1,32 @@
+<svg width="960" height="540" viewBox="0 0 960 540" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="960" height="540" rx="22" fill="#111827"/>
+  <path d="M0 0h960v540H0z" fill="url(#bg)"/>
+  <rect x="86" y="92" width="788" height="356" rx="24" fill="#0f172a" stroke="#38bdf8" stroke-opacity=".35" stroke-width="2"/>
+  <rect x="126" y="138" width="228" height="86" rx="16" fill="#122033" stroke="#38bdf8" stroke-opacity=".45"/>
+  <rect x="126" y="246" width="228" height="86" rx="16" fill="#122033" stroke="#38bdf8" stroke-opacity=".45"/>
+  <rect x="126" y="354" width="228" height="48" rx="14" fill="#0e7490" fill-opacity=".28" stroke="#67e8f9" stroke-opacity=".45"/>
+  <rect x="414" y="138" width="420" height="264" rx="18" fill="#0b1220" stroke="#94a3b8" stroke-opacity=".3"/>
+  <rect x="444" y="176" width="360" height="34" rx="10" fill="#164e63" fill-opacity=".5"/>
+  <rect x="444" y="236" width="290" height="28" rx="8" fill="#1e293b"/>
+  <rect x="444" y="284" width="326" height="28" rx="8" fill="#1e293b"/>
+  <rect x="444" y="332" width="250" height="28" rx="8" fill="#1e293b"/>
+  <circle cx="786" cy="250" r="12" fill="#22c55e"/>
+  <circle cx="786" cy="300" r="12" fill="#22c55e"/>
+  <circle cx="786" cy="350" r="12" fill="#22c55e"/>
+  <text x="126" y="121" fill="#e0f2fe" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700">Sistema Ink</text>
+  <text x="148" y="188" fill="#f8fafc" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700">API REST</text>
+  <text x="148" y="296" fill="#f8fafc" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700">SQL Server</text>
+  <text x="148" y="386" fill="#cffafe" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="600">Cliente-servidor</text>
+  <text x="444" y="164" fill="#cbd5e1" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="600">Modulos operativos</text>
+  <text x="464" y="201" fill="#e0f2fe" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700">Gestion, respaldos y restauracion</text>
+  <text x="444" y="256" fill="#cbd5e1" font-family="Segoe UI, Arial, sans-serif" font-size="18">Autenticacion y usuarios</text>
+  <text x="444" y="304" fill="#cbd5e1" font-family="Segoe UI, Arial, sans-serif" font-size="18">Catalogos, clientes y servicios</text>
+  <text x="444" y="352" fill="#cbd5e1" font-family="Segoe UI, Arial, sans-serif" font-size="18">Instaladores y logs</text>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="960" y2="540" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0f172a"/>
+      <stop offset=".48" stop-color="#1e1b4b"/>
+      <stop offset="1" stop-color="#083344"/>
+    </linearGradient>
+  </defs>
+</svg>

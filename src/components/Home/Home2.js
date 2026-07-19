@@ -9,6 +9,25 @@ import {
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
+const workflowSteps = [
+  {
+    title: "Entiendo el proceso",
+    text: "Primero ubico usuarios, tareas repetitivas, datos críticos y puntos donde el software debe quitar fricción.",
+  },
+  {
+    title: "Diseño el flujo",
+    text: "Organizo pantallas, módulos, rutas y permisos para que la experiencia sea clara y mantenible.",
+  },
+  {
+    title: "Construyo y valido",
+    text: "Trabajo interfaz, API, base de datos, pruebas de build, respaldos e instaladores cuando el proyecto lo requiere.",
+  },
+  {
+    title: "Mejoro con IA",
+    text: "Uso ChatGPT y Codex para analizar, depurar, documentar y avanzar más rápido sin perder criterio técnico.",
+  },
+];
+
 function Home2() {
   return (
     <Container fluid className="home-about-section" id="about">
@@ -55,6 +74,21 @@ function Home2() {
               <img src={myImg} className="img-fluid" alt="avatar" />
             </Tilt>
           </Col>
+        </Row>
+        <Row className="workflow-section">
+          <Col md={12}>
+            <h1 className="workflow-heading">
+              Mi forma de <strong className="purple">construir</strong>
+            </h1>
+          </Col>
+          {workflowSteps.map((step) => (
+            <Col md={3} sm={6} className="workflow-card-col" key={step.title}>
+              <div className="workflow-card">
+                <h3>{step.title}</h3>
+                <p>{step.text}</p>
+              </div>
+            </Col>
+          ))}
         </Row>
         <Row>
           <Col md={12} className="home-about-social">

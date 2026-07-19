@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import Button from "react-bootstrap/Button";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import explora from "../../Assets/Projects/Explora.jpg";
@@ -19,6 +20,63 @@ function Projects() {
           Algunos proyectos donde he aplicado frontend, backend, datos y
           soluciones para procesos reales.
         </p>
+
+        <section className="case-study-panel">
+          <Row className="align-items-center">
+            <Col lg={5} className="case-study-visual">
+              <img
+                src={sistemaInk}
+                alt="Arquitectura del Sistema Ink Multiservicios"
+                className="img-fluid"
+              />
+            </Col>
+            <Col lg={7} className="case-study-content">
+              <span className="case-study-kicker">Caso de estudio</span>
+              <h2>Sistema Ink Multiservicios</h2>
+              <p>
+                Sistema de gestión cliente-servidor creado para llevar procesos
+                operativos a una solución más ordenada, respaldable y fácil de
+                mantener.
+              </p>
+
+              <div className="case-study-grid">
+                <div>
+                  <strong>Mi rol</strong>
+                  <span>Análisis, backend, escritorio, datos y entrega.</span>
+                </div>
+                <div>
+                  <strong>Stack</strong>
+                  <span>.NET, API REST, Windows Desktop y SQL Server.</span>
+                </div>
+                <div>
+                  <strong>Módulos</strong>
+                  <span>Usuarios, catálogos, clientes, servicios y respaldos.</span>
+                </div>
+                <div>
+                  <strong>Entrega</strong>
+                  <span>Migraciones, logs, instaladores y entorno cliente-servidor.</span>
+                </div>
+              </div>
+
+              <div className="architecture-flow">
+                <span>Escritorio Windows</span>
+                <span>API REST</span>
+                <span>SQL Server</span>
+                <span>Backups + Logs</span>
+              </div>
+
+              <div className="case-study-actions">
+                <Button href="mailto:eliezerponcexd@gmail.com" variant="primary">
+                  Solicitar más detalles
+                </Button>
+                <Button href="#/resume" variant="outline-light">
+                  Ver perfil técnico
+                </Button>
+              </div>
+            </Col>
+          </Row>
+        </section>
+
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard

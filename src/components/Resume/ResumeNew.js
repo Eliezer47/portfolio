@@ -8,24 +8,22 @@ import { AiOutlineDownload } from "react-icons/ai";
 const highlights = [
   {
     title: "Sistema Ink",
-    text: "Desarrollo, mantenimiento, corrección de errores, nuevas funcionalidades, optimización y automatización.",
+    text: "Mejora continua, nuevas funcionalidades, corrección de errores y automatización de procesos internos.",
   },
   {
-    title: "Soporte industrial",
-    text: "Diagnóstico, mantenimiento y soporte a impresoras industriales, bordadoras, equipos láser y producción.",
+    title: "Soporte tecnológico",
+    text: "Atención técnica, diagnóstico, mantenimiento e infraestructura para continuidad operativa.",
   },
   {
     title: "Infraestructura",
-    text: "Computadoras, periféricos, redes, conectividad, recursos compartidos, CCTV y atención a usuarios.",
+    text: "Redes, equipos, recursos compartidos, seguridad tecnológica y soporte a usuarios.",
   },
 ];
 
 const experience = [
-  "Responsable de garantizar la continuidad operativa de la infraestructura tecnológica y equipos industriales de Ink Multiservicios.",
-  "Diagnóstico, mantenimiento preventivo/correctivo y soporte técnico a impresoras industriales, máquinas bordadoras y equipos láser.",
-  "Instalación, configuración y mantenimiento de computadoras, periféricos, sistemas, aplicaciones, redes y recursos compartidos.",
-  "Instalación, configuración, supervisión y mantenimiento de sistemas de videovigilancia CCTV.",
-  "Desarrollo, revisión y mantenimiento del Sistema Ink, incluyendo análisis de requerimientos, corrección de errores, nuevas funcionalidades, optimización y automatización de procesos.",
+  "Responsable de soporte tecnológico y mejora continua del Sistema Ink en Ink Multiservicios.",
+  "Acompaño la continuidad operativa mediante soporte técnico, infraestructura, redes y atención a usuarios.",
+  "Desarrollo mejoras, corrijo errores y automatizo procesos internos para agilizar la operación.",
 ];
 
 const education = [
@@ -44,13 +42,9 @@ const coreSkills = [
   "SQL Server",
   "C#/.NET",
   "Sistema Ink",
-  "Soporte industrial",
-  "Impresoras industriales",
-  "Equipos láser",
-  "Máquinas bordadoras",
+  "Soporte tecnológico",
+  "Infraestructura",
   "Redes",
-  "CCTV",
-  "Hardware y software",
   "Automatización",
 ];
 
@@ -65,11 +59,10 @@ function ResumeNew() {
               <span className="resume-kicker">Resumen profesional</span>
               <h1>Perfil técnico orientado a sistemas reales</h1>
               <p>
-                Trabajo en la continuidad operativa de Ink Multiservicios,
-                conectando soporte industrial, infraestructura tecnológica,
-                redes, CCTV, atención a usuarios y desarrollo del Sistema Ink.
-                Mi experiencia combina programación, diagnóstico técnico,
-                mantenimiento, automatización de procesos e IA aplicada.
+                Trabajo en Ink Multiservicios conectando soporte tecnológico,
+                infraestructura y desarrollo del Sistema Ink. Mi experiencia
+                combina programación, diagnóstico técnico, automatización de
+                procesos e IA aplicada.
               </p>
             </Col>
             <Col lg={4} className="resume-actions">

@@ -39,7 +39,7 @@ const profileHighlights = [
   },
   {
     metric: "Ink",
-    label: "Continuidad operativa, soporte industrial e infraestructura tecnológica",
+    label: "Soporte tecnológico, infraestructura y continuidad operativa",
   },
   {
     metric: "Sistema",
@@ -68,25 +68,24 @@ function Home2() {
                   {" "}responsable de soporte tecnológico y Sistema Ink en Ink Multiservicios{" "}
                 </b>
               </i>
-              , garantizando la continuidad operativa de la infraestructura
-              tecnológica, equipos de producción y sistemas internos.
+              , donde apoyo la continuidad operativa y la mejora de procesos
+              internos.
               <br />
               <br />
-              Mi trabajo combina soporte a &nbsp;
+              Mi trabajo combina &nbsp;
               <i>
-                <b className="purple">impresoras industriales, bordadoras, equipos láser, redes, CCTV y computadoras</b>
+                <b className="purple">infraestructura tecnológica, soporte técnico, desarrollo de software y automatización</b>
               </i>
-              , con diagnóstico, mantenimiento, configuración y atención de
-              incidencias para reducir tiempos de inactividad.
+              , manteniendo una visión práctica entre operación, usuarios y
+              sistemas.
               <br />
               <br />
               En proyectos como{" "}
               <i>
                 <b className="purple">Sistema Ink Multiservicios</b>
               </i>
-              {" "}desarrollo, reviso y mejoro funcionalidades, corrijo errores,
-              optimizo rendimiento y automatizo procesos para agilizar las
-              operaciones internas.
+              {" "}desarrollo mejoras, reviso funcionalidades y automatizo
+              procesos para agilizar las operaciones internas.
             </p>
           </Col>
           <Col md={4} className="myAvtar">

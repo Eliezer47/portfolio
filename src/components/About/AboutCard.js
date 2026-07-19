@@ -12,8 +12,8 @@ function AboutCard() {
             de <span className="purple">Estelí, Nicaragua.</span>
             <br />
             Actualmente trabajo en Ink Multiservicios, garantizando la
-            continuidad operativa de la infraestructura tecnológica, equipos
-            industriales y el Sistema Ink.
+            continuidad operativa desde el soporte tecnológico, la
+            infraestructura y la mejora continua del Sistema Ink.
             <br />
             Soy Ingeniero en Ciencias de la Computación y M.Sc. en Ingeniería
             de Software y Sistemas Informáticos.
@@ -25,13 +25,13 @@ function AboutCard() {
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Mantener impresoras industriales, bordadoras y equipos láser
+              <ImPointRight /> Dar soporte tecnológico a la operación diaria
             </li>
             <li className="about-activity">
-              <ImPointRight /> Administrar soporte informático, redes e infraestructura
+              <ImPointRight /> Mantener infraestructura, redes y recursos técnicos
             </li>
             <li className="about-activity">
-              <ImPointRight /> Instalar, configurar y mantener sistemas CCTV
+              <ImPointRight /> Mejorar procesos internos con automatización
             </li>
             <li className="about-activity">
               <ImPointRight /> Desarrollar y mejorar continuamente el Sistema Ink

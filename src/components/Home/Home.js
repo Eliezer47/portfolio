@@ -16,7 +16,7 @@ function Home() {
           <Row>
             <Col md={7} className="home-header">
               <p className="hero-eyebrow">
-                Ink Multiservicios | Infraestructura, soporte y software
+                Ink Multiservicios | Soporte tecnológico y software
               </p>
 
               <h1 className="hero-title">
@@ -25,10 +25,9 @@ function Home() {
 
               <p className="hero-summary">
                 Soy <strong className="main-name">Eliezer Ponce</strong>,
-                M.Sc. en Ingeniería de Software. En Ink Multiservicios garantizo
-                la continuidad operativa de la infraestructura tecnológica y de
-                equipos industriales, además de desarrollar y mejorar el Sistema
-                Ink.
+                M.Sc. en Ingeniería de Software. En Ink Multiservicios combino
+                soporte tecnológico, infraestructura y mejora continua del
+                Sistema Ink para mantener operaciones más ágiles y confiables.
               </p>
 
               <div className="home-typewriter">
@@ -53,9 +52,8 @@ function Home() {
               <div className="hero-stack-strip">
                 <span>.NET</span>
                 <span>SQL Server</span>
-                <span>Soporte industrial</span>
-                <span>Redes</span>
-                <span>CCTV</span>
+                <span>Sistema Ink</span>
+                <span>Infraestructura</span>
                 <span>Automatización</span>
               </div>
             </Col>

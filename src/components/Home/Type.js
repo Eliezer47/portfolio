@@ -8,8 +8,8 @@ function Type() {
         strings: [
           "Ink Multiservicios",
           "Sistema Ink y mejora continua",
-          "Soporte a impresoras, láser y bordadoras",
-          "Redes, CCTV e infraestructura tecnológica",
+          "Soporte tecnológico e infraestructura",
+          ".NET, SQL Server y automatización",
         ],
         autoStart: true,
         loop: true,

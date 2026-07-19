@@ -15,18 +15,19 @@ function Home() {
         <Container className="home-content">
           <Row>
             <Col md={7} className="home-header">
-              <p className="hero-eyebrow">Desarrollador web, móvil y backend</p>
+              <p className="hero-eyebrow">
+                Analista Programador | Datos, software y BI
+              </p>
 
               <h1 className="hero-title">
-                Desarrollo sistemas que conectan interfaz, datos y operación
-                real.
+                Construyo soluciones que conectan operación, datos y software.
               </h1>
 
               <p className="hero-summary">
                 Soy <strong className="main-name">Eliezer Ponce</strong>,
-                ingeniero en ciencias de la computación. Construyo aplicaciones
-                con React, React Native, .NET, SQL Server e IA aplicada al
-                desarrollo.
+                M.Sc. en Ingeniería de Software. Trabajo con SQL Server, Power
+                BI, .NET, React Native y automatización para convertir procesos
+                reales en sistemas claros, mantenibles y útiles.
               </p>
 
               <div className="home-typewriter">
@@ -53,7 +54,8 @@ function Home() {
                 <span>React Native</span>
                 <span>.NET</span>
                 <span>SQL Server</span>
-                <span>Codex + IA</span>
+                <span>Power BI</span>
+                <span>IA aplicada</span>
               </div>
             </Col>
 

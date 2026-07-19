@@ -17,7 +17,7 @@ function Projects() {
           Mis trabajos <strong className="purple">Recientes</strong>
         </h1>
         <p style={{ color: "white" }}>
-          Algunos proyectos donde he aplicado frontend, backend, datos y
+          Proyectos donde conecto frontend, backend, datos, automatización y
           soluciones para procesos reales.
         </p>
 
@@ -34,27 +34,27 @@ function Projects() {
               <span className="case-study-kicker">Caso de estudio</span>
               <h2>Sistema Ink Multiservicios</h2>
               <p>
-                Sistema de gestión cliente-servidor creado para llevar procesos
-                operativos a una solución más ordenada, respaldable y fácil de
-                mantener.
+                Sistema de gestión cliente-servidor creado para ordenar procesos
+                operativos, asegurar datos, facilitar respaldos y entregar una
+                solución instalable para entorno Windows.
               </p>
 
               <div className="case-study-grid">
                 <div>
                   <strong>Mi rol</strong>
-                  <span>Análisis, backend, escritorio, datos y entrega.</span>
+                  <span>Análisis, arquitectura, backend, escritorio, datos y entrega.</span>
                 </div>
                 <div>
                   <strong>Stack</strong>
-                  <span>.NET, API REST, Windows Desktop y SQL Server.</span>
+                  <span>.NET, API REST, Windows Desktop, SQL Server y migraciones.</span>
                 </div>
                 <div>
                   <strong>Módulos</strong>
-                  <span>Usuarios, catálogos, clientes, servicios y respaldos.</span>
+                  <span>Usuarios, catálogos, clientes, órdenes, servicios y respaldos.</span>
                 </div>
                 <div>
                   <strong>Entrega</strong>
-                  <span>Migraciones, logs, instaladores y entorno cliente-servidor.</span>
+                  <span>Logs, restauración, instaladores y soporte cliente-servidor.</span>
                 </div>
               </div>
 
@@ -67,7 +67,7 @@ function Projects() {
 
               <div className="case-study-actions">
                 <Button href="mailto:eliezerponcexd@gmail.com" variant="primary">
-                  Solicitar más detalles
+                  Solicitar detalles
                 </Button>
                 <Button href="#/resume" variant="outline-light">
                   Ver perfil técnico
@@ -83,8 +83,8 @@ function Projects() {
               imgPath={explora}
               isBlog={false}
               title="Explora"
-              description="Explora es una plataforma turística de Nicaragua que ofrece tours virtuales en 360° y realidad aumentada para mostrar destinos. Facilita rutas y opciones de transporte, categoriza los destinos en diferentes tipos de turismo, y permite a los usuarios calificar y comentar sobre los sitios visitados, proporcionando retroalimentación valiosa y mejorando la experiencia de viaje."
-              tags={["React", "Turismo", "Realidad aumentada"]}
+              description="Proyecto asociado a reconocimientos de innovación TIC. Explora propone experiencias turísticas digitales con recorridos virtuales, realidad aumentada, rutas, categorías de turismo y retroalimentación de usuarios para promover destinos de Nicaragua."
+              tags={["Innovación TIC", "React", "Turismo", "Realidad aumentada"]}
               ghLink="https://github.com/Eliezer47/Explora"
               demoLink="https://www.linkedin.com/posts/explora-s-a_un-tour-m%C3%A1s-activity-7099947122849894400-6jQh?utm_source=share&utm_medium=member_desktop"
             />
@@ -95,8 +95,8 @@ function Projects() {
               imgPath={aduana}
               isBlog={false}
               title="Aduana System"
-              description="La interfaz de frontend para el manejo aduanero y control interno de pólizas es una plataforma web diseñada para facilitar la gestión eficiente y segura de pólizas de seguro y operaciones aduaneras. Esta herramienta integra múltiples funcionalidades que permiten a los usuarios crear, editar y supervisar pólizas, además de gestionar registros aduaneros, todo desde una única interfaz intuitiva y fácil de usar."
-              tags={["React", "Gestión", "Operaciones"]}
+              description="Interfaz frontend para manejo aduanero y control interno de pólizas. Integra creación, edición, seguimiento de registros y una experiencia organizada para operaciones administrativas."
+              tags={["React", "Gestión", "Operaciones", "Frontend"]}
               ghLink="https://github.com/Eliezer47/sistema_aduana"
             />
           </Col>
@@ -117,8 +117,8 @@ function Projects() {
               imgPath={sistemaInk}
               isBlog={false}
               title="Sistema Ink Multiservicios"
-              description="Sistema de gestión desarrollado con .NET, API REST, escritorio Windows y SQL Server. Incluye autenticación, módulos administrativos, catálogos, clientes, órdenes de servicio, respaldos y restauración, migraciones, logs e instaladores para entrega en entorno cliente-servidor."
-              tags={[".NET", "SQL Server", "Windows Desktop", "API REST"]}
+              description="Sistema de gestión desarrollado con .NET, API REST, escritorio Windows y SQL Server. Incluye autenticación, módulos administrativos, catálogos, clientes, órdenes de servicio, respaldos/restauración, migraciones, logs e instaladores."
+              tags={[".NET", "SQL Server", "Windows Desktop", "API REST", "Instaladores"]}
             />
           </Col>
         </Row>

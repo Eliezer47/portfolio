@@ -6,10 +6,10 @@ function Type() {
     <Typewriter
       options={{
         strings: [
-          "Desarrollador .NET y React",
-          "React Native y TypeScript",
-          "SQL Server y APIs REST",
-          "Soporte técnico N2 y CCTV",
+          "Analista de programación",
+          "SQL Server, SSRS y Power BI",
+          "C#/.NET, React Native y Python",
+          "Premio Nacional a la Innovación TIC",
         ],
         autoStart: true,
         loop: true,

@@ -11,27 +11,29 @@ function AboutCard() {
             Hola, soy <span className="purple">Eliezer Ponce </span>
             de <span className="purple">Estelí, Nicaragua.</span>
             <br />
-            Actualmente trabajo como Helpdesk Support en Joya de Nicaragua.
+            Actualmente trabajo como Analista de programación en Joya de
+            Nicaragua.
             <br />
-            Soy Ingeniero en Ciencias de la Computación y estudio una maestría
-            en Ingeniería de Software.
+            Soy Ingeniero en Ciencias de la Computación y M.Sc. en Ingeniería
+            de Software y Sistemas Informáticos.
             <br />
             <br />
             Me interesa crear software que combine buena interfaz, lógica
-            sólida, datos confiables y una entrega práctica para usuarios reales.
+            sólida, datos confiables, automatización y una entrega práctica para
+            usuarios reales.
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Construir aplicaciones web y móviles
+              <ImPointRight /> Construir aplicaciones web, móviles y de escritorio
             </li>
             <li className="about-activity">
-              <ImPointRight /> Diseñar módulos administrativos y flujos de negocio
+              <ImPointRight /> Diseñar módulos administrativos, reportes y flujos de negocio
             </li>
             <li className="about-activity">
-              <ImPointRight /> Trabajar con bases de datos y respaldos
+              <ImPointRight /> Trabajar con SQL Server, SSRS, Power BI y respaldos
             </li>
             <li className="about-activity">
-              <ImPointRight /> Usar IA como apoyo para analizar y mejorar código
+              <ImPointRight /> Usar IA como apoyo para analizar, depurar y documentar
             </li>
           </ul>
 

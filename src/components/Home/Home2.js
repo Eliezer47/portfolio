@@ -12,19 +12,38 @@ import { FaLinkedinIn } from "react-icons/fa";
 const workflowSteps = [
   {
     title: "Entiendo el proceso",
-    text: "Primero ubico usuarios, tareas repetitivas, datos críticos y puntos donde el software debe quitar fricción.",
+    text: "Ubico usuarios, tareas repetitivas, datos críticos y puntos donde el software debe quitar fricción.",
   },
   {
-    title: "Diseño el flujo",
-    text: "Organizo pantallas, módulos, rutas y permisos para que la experiencia sea clara y mantenible.",
+    title: "Modelo datos y reglas",
+    text: "Trabajo consultas, reportes, integraciones, módulos y permisos para ordenar la operación.",
   },
   {
     title: "Construyo y valido",
-    text: "Trabajo interfaz, API, base de datos, pruebas de build, respaldos e instaladores cuando el proyecto lo requiere.",
+    text: "Conecto interfaz, API, base de datos, respaldos, instaladores y soporte cuando el proyecto lo requiere.",
   },
   {
     title: "Mejoro con IA",
     text: "Uso ChatGPT y Codex para analizar, depurar, documentar y avanzar más rápido sin perder criterio técnico.",
+  },
+];
+
+const profileHighlights = [
+  {
+    metric: "M.Sc.",
+    label: "Ingeniería de Software y Sistemas Informáticos",
+  },
+  {
+    metric: "2021",
+    label: "Premio Nacional a la Innovación TIC por CONICYT",
+  },
+  {
+    metric: "Joya",
+    label: "Analista de programación, datos, reportes y automatización",
+  },
+  {
+    metric: "Ink",
+    label: "Sistema cliente-servidor con .NET, SQL Server y escritorio Windows",
   },
 ];
 
@@ -39,23 +58,23 @@ function Home2() {
             </h1>
             <p className="home-about-body">
               Soy desarrollador de Nicaragua enfocado en aplicaciones web,
-              móviles y sistemas de gestión que simplifican procesos reales.
+              móviles, datos y sistemas de gestión que simplifican procesos
+              reales.
               <br />
               <br />
-              Trabajo con
+              Actualmente trabajo como
               <i>
                 <b className="purple">
-                  {" "}
-                  React, React Native, JavaScript y TypeScript{" "}
+                  {" "}Analista de programación en Joya de Nicaragua{" "}
                 </b>
               </i>
-              para construir interfaces claras, mantenibles y orientadas al
-              usuario.
+              , donde combino SQL Server, SSRS, Power BI, Python, Odoo, soporte
+              técnico y automatización.
               <br />
               <br />
-              También he desarrollado soluciones con &nbsp;
+              También desarrollo soluciones con &nbsp;
               <i>
-                <b className="purple">C#/.NET, APIs REST y SQL Server</b>
+                <b className="purple">C#/.NET, React Native, APIs REST y SQL Server</b>
               </i>
               , incluyendo módulos administrativos, autenticación, respaldos,
               restauración e instaladores.
@@ -65,8 +84,8 @@ function Home2() {
               <i>
                 <b className="purple">Sistema Ink Multiservicios</b>
               </i>
-              {" "}me gusta unir análisis, interfaz, lógica de negocio, datos y
-              entrega para que el software sea útil desde el primer uso.
+              {" "}uno análisis, interfaz, lógica de negocio, datos y entrega
+              para que el software sea útil desde el primer uso.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -74,6 +93,16 @@ function Home2() {
               <img src={myImg} className="img-fluid" alt="avatar" />
             </Tilt>
           </Col>
+        </Row>
+        <Row className="profile-highlight-section">
+          {profileHighlights.map((item) => (
+            <Col lg={3} sm={6} className="profile-highlight-col" key={item.metric}>
+              <div className="profile-highlight-card">
+                <strong>{item.metric}</strong>
+                <span>{item.label}</span>
+              </div>
+            </Col>
+          ))}
         </Row>
         <Row className="workflow-section">
           <Col md={12}>

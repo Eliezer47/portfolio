@@ -6,10 +6,10 @@ function Type() {
     <Typewriter
       options={{
         strings: [
-          "Analista de programación",
-          "SQL Server, SSRS y Power BI",
-          "C#/.NET, React Native y Python",
-          "Premio Nacional a la Innovación TIC",
+          "Ink Multiservicios",
+          "Sistema Ink y mejora continua",
+          "Soporte a impresoras, láser y bordadoras",
+          "Redes, CCTV e infraestructura tecnológica",
         ],
         autoStart: true,
         loop: true,

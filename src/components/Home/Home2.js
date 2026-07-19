@@ -38,12 +38,12 @@ const profileHighlights = [
     label: "Premio Nacional a la Innovación TIC por CONICYT",
   },
   {
-    metric: "Joya",
-    label: "Analista de programación, datos, reportes y automatización",
+    metric: "Ink",
+    label: "Continuidad operativa, soporte industrial e infraestructura tecnológica",
   },
   {
-    metric: "Ink",
-    label: "Sistema cliente-servidor con .NET, SQL Server y escritorio Windows",
+    metric: "Sistema",
+    label: "Desarrollo, mantenimiento y mejora continua del Sistema Ink",
   },
 ];
 
@@ -65,27 +65,28 @@ function Home2() {
               Actualmente trabajo como
               <i>
                 <b className="purple">
-                  {" "}Analista de programación en Joya de Nicaragua{" "}
+                  {" "}responsable de soporte tecnológico y Sistema Ink en Ink Multiservicios{" "}
                 </b>
               </i>
-              , donde combino SQL Server, SSRS, Power BI, Python, Odoo, soporte
-              técnico y automatización.
+              , garantizando la continuidad operativa de la infraestructura
+              tecnológica, equipos de producción y sistemas internos.
               <br />
               <br />
-              También desarrollo soluciones con &nbsp;
+              Mi trabajo combina soporte a &nbsp;
               <i>
-                <b className="purple">C#/.NET, React Native, APIs REST y SQL Server</b>
+                <b className="purple">impresoras industriales, bordadoras, equipos láser, redes, CCTV y computadoras</b>
               </i>
-              , incluyendo módulos administrativos, autenticación, respaldos,
-              restauración e instaladores.
+              , con diagnóstico, mantenimiento, configuración y atención de
+              incidencias para reducir tiempos de inactividad.
               <br />
               <br />
               En proyectos como{" "}
               <i>
                 <b className="purple">Sistema Ink Multiservicios</b>
               </i>
-              {" "}uno análisis, interfaz, lógica de negocio, datos y entrega
-              para que el software sea útil desde el primer uso.
+              {" "}desarrollo, reviso y mejoro funcionalidades, corrijo errores,
+              optimizo rendimiento y automatizo procesos para agilizar las
+              operaciones internas.
             </p>
           </Col>
           <Col md={4} className="myAvtar">

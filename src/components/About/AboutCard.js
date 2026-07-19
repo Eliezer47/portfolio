@@ -11,8 +11,9 @@ function AboutCard() {
             Hola, soy <span className="purple">Eliezer Ponce </span>
             de <span className="purple">Estelí, Nicaragua.</span>
             <br />
-            Actualmente trabajo como Analista de programación en Joya de
-            Nicaragua.
+            Actualmente trabajo en Ink Multiservicios, garantizando la
+            continuidad operativa de la infraestructura tecnológica, equipos
+            industriales y el Sistema Ink.
             <br />
             Soy Ingeniero en Ciencias de la Computación y M.Sc. en Ingeniería
             de Software y Sistemas Informáticos.
@@ -24,16 +25,16 @@ function AboutCard() {
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Construir aplicaciones web, móviles y de escritorio
+              <ImPointRight /> Mantener impresoras industriales, bordadoras y equipos láser
             </li>
             <li className="about-activity">
-              <ImPointRight /> Diseñar módulos administrativos, reportes y flujos de negocio
+              <ImPointRight /> Administrar soporte informático, redes e infraestructura
             </li>
             <li className="about-activity">
-              <ImPointRight /> Trabajar con SQL Server, SSRS, Power BI y respaldos
+              <ImPointRight /> Instalar, configurar y mantener sistemas CCTV
             </li>
             <li className="about-activity">
-              <ImPointRight /> Usar IA como apoyo para analizar, depurar y documentar
+              <ImPointRight /> Desarrollar y mejorar continuamente el Sistema Ink
             </li>
           </ul>
 

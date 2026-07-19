@@ -16,7 +16,7 @@ function Home() {
           <Row>
             <Col md={7} className="home-header">
               <p className="hero-eyebrow">
-                Analista Programador | Datos, software y BI
+                Ink Multiservicios | Infraestructura, soporte y software
               </p>
 
               <h1 className="hero-title">
@@ -25,9 +25,10 @@ function Home() {
 
               <p className="hero-summary">
                 Soy <strong className="main-name">Eliezer Ponce</strong>,
-                M.Sc. en Ingeniería de Software. Trabajo con SQL Server, Power
-                BI, .NET, React Native y automatización para convertir procesos
-                reales en sistemas claros, mantenibles y útiles.
+                M.Sc. en Ingeniería de Software. En Ink Multiservicios garantizo
+                la continuidad operativa de la infraestructura tecnológica y de
+                equipos industriales, además de desarrollar y mejorar el Sistema
+                Ink.
               </p>
 
               <div className="home-typewriter">
@@ -50,12 +51,12 @@ function Home() {
               </div>
 
               <div className="hero-stack-strip">
-                <span>React</span>
-                <span>React Native</span>
                 <span>.NET</span>
                 <span>SQL Server</span>
-                <span>Power BI</span>
-                <span>IA aplicada</span>
+                <span>Soporte industrial</span>
+                <span>Redes</span>
+                <span>CCTV</span>
+                <span>Automatización</span>
               </div>
             </Col>
 

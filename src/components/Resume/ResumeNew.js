@@ -7,24 +7,25 @@ import { AiOutlineDownload } from "react-icons/ai";
 
 const highlights = [
   {
-    title: "Software",
-    text: ".NET, APIs REST, React, React Native, TypeScript, rutas protegidas y consumo de APIs.",
+    title: "Sistema Ink",
+    text: "Desarrollo, mantenimiento, corrección de errores, nuevas funcionalidades, optimización y automatización.",
   },
   {
-    title: "Datos y BI",
-    text: "SQL Server, procedimientos almacenados, triggers, SSRS, Power BI, Power Query y DAX.",
+    title: "Soporte industrial",
+    text: "Diagnóstico, mantenimiento y soporte a impresoras industriales, bordadoras, equipos láser y producción.",
   },
   {
-    title: "Operación",
-    text: "Soporte TI, Office 365, AWS/Linux, Odoo, automatización, documentación e instaladores.",
+    title: "Infraestructura",
+    text: "Computadoras, periféricos, redes, conectividad, recursos compartidos, CCTV y atención a usuarios.",
   },
 ];
 
 const experience = [
-  "Analista de programación en Joya de Nicaragua, enfocado en SQL Server, SSRS, Power BI, reportes, procesos automatizados y soporte técnico.",
-  "Desarrollo de Sistema Ink Multiservicios con backend .NET, escritorio Windows, SQL Server, autenticación, respaldos, restauración e instaladores.",
-  "Experiencia previa en soporte TI: Office 365, CCTV, inventario, atención a usuarios, proveedores, mantenimiento y proyectos internos.",
-  "Proyectos web y móviles con React, React Native y TypeScript para gestión de usuarios, clientes, eventos, tickets y operaciones administrativas.",
+  "Responsable de garantizar la continuidad operativa de la infraestructura tecnológica y equipos industriales de Ink Multiservicios.",
+  "Diagnóstico, mantenimiento preventivo/correctivo y soporte técnico a impresoras industriales, máquinas bordadoras y equipos láser.",
+  "Instalación, configuración y mantenimiento de computadoras, periféricos, sistemas, aplicaciones, redes y recursos compartidos.",
+  "Instalación, configuración, supervisión y mantenimiento de sistemas de videovigilancia CCTV.",
+  "Desarrollo, revisión y mantenimiento del Sistema Ink, incluyendo análisis de requerimientos, corrección de errores, nuevas funcionalidades, optimización y automatización de procesos.",
 ];
 
 const education = [
@@ -41,14 +42,15 @@ const awards = [
 
 const coreSkills = [
   "SQL Server",
-  "SSRS",
-  "Power BI",
   "C#/.NET",
-  "React Native",
-  "React",
-  "Python",
-  "Odoo",
-  "Office 365",
+  "Sistema Ink",
+  "Soporte industrial",
+  "Impresoras industriales",
+  "Equipos láser",
+  "Máquinas bordadoras",
+  "Redes",
+  "CCTV",
+  "Hardware y software",
   "Automatización",
 ];
 
@@ -63,10 +65,11 @@ function ResumeNew() {
               <span className="resume-kicker">Resumen profesional</span>
               <h1>Perfil técnico orientado a sistemas reales</h1>
               <p>
-                Desarrollo soluciones web, móviles y de escritorio conectando
-                interfaz, lógica de negocio, API, datos, reportes y entrega. Mi
-                experiencia combina programación, BI, soporte técnico,
-                automatización de procesos e IA aplicada.
+                Trabajo en la continuidad operativa de Ink Multiservicios,
+                conectando soporte industrial, infraestructura tecnológica,
+                redes, CCTV, atención a usuarios y desarrollo del Sistema Ink.
+                Mi experiencia combina programación, diagnóstico técnico,
+                mantenimiento, automatización de procesos e IA aplicada.
               </p>
             </Col>
             <Col lg={4} className="resume-actions">

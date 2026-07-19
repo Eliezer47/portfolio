@@ -14,6 +14,7 @@ import {
   SiWordpress,
   SiMysql,
 } from "react-icons/si";
+import { TbAi } from "react-icons/tb";
 
 function Techstack() {
   return (
@@ -47,6 +48,9 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiMysql />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons" title="IA aplicada">
+        <TbAi />
       </Col>
     </Row>
   );

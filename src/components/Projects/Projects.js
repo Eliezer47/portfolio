@@ -7,6 +7,9 @@ import explora from "../../Assets/Projects/Explora.jpg";
 import aduana from "../../Assets/Projects/Aduana.png";
 import proximamente from "../../Assets/Projects/Soon.png";
 import sistemaInk from "../../Assets/Projects/SistemaInk.svg";
+import { CgWebsite } from "react-icons/cg";
+
+const sistemaInkDemoUrl = `${process.env.PUBLIC_URL}/demos/sistema-ink/`;
 
 function Projects() {
   return (
@@ -66,13 +69,26 @@ function Projects() {
               </div>
 
               <div className="case-study-actions">
-                <Button href="mailto:eliezerponcexd@gmail.com" variant="primary">
+                <Button
+                  className="project-demo-button"
+                  href={sistemaInkDemoUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  variant="primary"
+                  aria-describedby="sistema-ink-demo-note"
+                  aria-label="Explorar demo visual de Sistema Ink (se abre en una pestaña nueva)"
+                >
+                  <CgWebsite aria-hidden="true" focusable="false" /> &nbsp;
+                  Explorar demo visual
+                </Button>
+                <Button href="mailto:eliezerponcexd@gmail.com" variant="outline-light">
                   Solicitar detalles
                 </Button>
-                <Button href="#/resume" variant="outline-light">
-                  Ver perfil técnico
-                </Button>
               </div>
+              <p id="sistema-ink-demo-note" className="case-study-demo-note">
+                Demo visual · Solo lectura · Datos ficticios. La lógica interna
+                no forma parte de esta demostración.
+              </p>
             </Col>
           </Row>
         </section>
@@ -119,6 +135,8 @@ function Projects() {
               title="Sistema Ink Multiservicios"
               description="Sistema de gestión desarrollado con .NET, API REST, escritorio Windows y SQL Server. Incluye autenticación, módulos administrativos, catálogos, clientes, órdenes de servicio, respaldos/restauración, migraciones, logs e instaladores."
               tags={[".NET", "SQL Server", "Windows Desktop", "API REST", "Instaladores"]}
+              demoLink={sistemaInkDemoUrl}
+              demoLabel="Explorar demo visual"
             />
           </Col>
         </Row>

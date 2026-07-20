@@ -832,6 +832,33 @@ button:focus {
   outline: none !important;
   box-shadow: none !important;
 }
+
+.project-demo-button {
+  background-color: #0c7c86 !important;
+  border-color: #35b6bf !important;
+  box-shadow: 0 0 0 1px rgba(53, 182, 191, 0.18) !important;
+}
+
+.project-demo-button:hover {
+  background-color: #0a6972 !important;
+  border-color: #67e8f9 !important;
+}
+
+.case-study-demo-note {
+  color: rgba(255, 255, 255, 0.72);
+  font-size: 0.84rem;
+  line-height: 1.5;
+  margin: 12px 0 0;
+}
+
+.case-study-actions .btn:focus-visible,
+.project-links .btn:focus-visible {
+  border-color: #ffffff !important;
+  box-shadow: 0 0 0 3px rgba(103, 232, 249, 0.8) !important;
+  outline: 2px solid #0b111d !important;
+  outline-offset: 2px;
+}
+
 .project-heading {
   color: white !important;
   font-size: 2.3em !important;
